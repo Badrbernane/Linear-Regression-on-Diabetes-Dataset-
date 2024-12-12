@@ -13,7 +13,7 @@ The dataset `diabetes1.csv` contains features and target values for diabetes pro
 ## Results
 Below is a visualization of the regression line on the dataset:
 
-![Regression Plot](images/regression_plot.png)
+![Regression Plot](images/first.png)
 
 The plot above shows how well the linear regression model fits the data.
 
