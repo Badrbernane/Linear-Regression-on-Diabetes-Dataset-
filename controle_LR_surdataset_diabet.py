@@ -70,7 +70,7 @@ prediction = model(X, theta_final)
 plt.plot(x[:,2], prediction, color='red')
 plt.show()"""
 
-"""fig = plt.figure()
+fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.scatter(x[:,0], x[:,1], y, c='b', marker='o') # affiche en 3D la variable x_1, x_2, et la target y
 ax.scatter(x[:,0], x[:,1], prediction, c='r', marker='o')
@@ -78,7 +78,7 @@ ax.scatter(x[:,0], x[:,1], prediction, c='r', marker='o')
 ax.set_xlabel('x_1')
 ax.set_ylabel('x_2')
 ax.set_zlabel('y')
-plt.show()"""
+plt.show()
 
 """ La courbe d'apprentissage """
 #plt.plot(range(len(cost_history)), cost_history)
